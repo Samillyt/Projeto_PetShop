@@ -1,0 +1,58 @@
+/* Define uma margem e preenchimento para o corpo da página */
+body {
+    margin: 0px 30px;
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+    background-color: #8FBC8F;
+}
+
+/* Estilos para links na barra de navegação */
+.collapse .navbar-nav .nav-item .nav-link {
+    color: #F5F5DC;
+}
+
+/* Estilos para ajustar a imagem na seção de serviço */
+.ajustaImgServico img {
+    margin-top: 20px;
+    height: 250px;
+}
+
+/* Estilos para cabeçalhos h2 */
+h2 {
+    margin-top: 50px;
+    color: #8FBC8F;
+}
+
+/* Estilos para o botão de agendamento */
+.btn-agendar {
+    background-color: #8FBC8F;
+    border: #8FBC8F;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Estilos para hover no botão de agendamento */
+.btn-agendar:hover {
+    background-color: #F5F5DC;
+    color: #8FBC8F;
+}
+
+/* Estilos para o rodapé da página */
+footer {
+    padding: 30px;
+    background-color: #8FBC8F;
+    color: #F5F5DC;
+}
+
+/* Estilos para links no rodapé */
+footer .container a {
+    color: #F5F5DC;
+}
+
+/* Estilos para hover em links no rodapé */
+footer .container a:hover {
+    text-decoration: none;
+    color: #F5F5DC;
+}

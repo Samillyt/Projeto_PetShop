@@ -1,0 +1,119 @@
+/* Define uma margem e preenchimento para o corpo da página */
+body {
+    margin: 0px 30px;
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+    background-color: #8FBC8F;
+}
+
+/* Estilos para links na barra de navegação */
+.collapse .navbar-nav .nav-item .nav-link {
+    color: #F5F5DC;
+}
+
+/* Estilos para a classe 'imag' */
+.imag {
+    border: 1px solid #F5F5DC;
+}
+
+/* Estilo para o carrinho modal */
+#meuCarrinhoModal {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#meuCarrinhoModal p {
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Estilo para o botão de remover no carrinho */
+.btnRemover {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btnRemover:hover {
+    background-color: #c82333;
+}
+
+/* Estilo para o botão "Ver Carrinho" */
+.btn-ver-carrinho {
+    background-color: #8FBC8F;
+}
+
+/* Estilos para cabeçalhos h2 */
+h2 {
+    margin-top: 50px;
+    color: #8FBC8F;
+    margin-left: 20px;
+}
+
+/* Estilos para a seção de cards */
+.ajustaCard {
+    display: block;
+    gap: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+/* Estilos para a seção de cards e links na seção */
+.ajustaCard .row {
+    background-color: #fff;
+}
+
+/* Estilos para itens de linha na seção de cards */
+.ajustaCard .row .row-item {
+    border: none;
+}
+
+/* Estilos para os cards na seção de cards */
+.ajustaCard .row .row-item .card {
+    border: none;
+}
+
+/* Estilos para botões na seção de cards */
+.ajustaCard button {
+    background-color: #8FBC8F;
+    border: 1px solid #8FBC8F;
+    color: #fff;
+}
+
+/* Estilos para hover em botões na seção de cards */
+.ajustaCard button:hover {
+    background-color: #F5F5DC;
+    border: #8FBC8F;
+    color: #8FBC8F;
+}
+
+/* Estilos para o corpo dos cards na seção de cards */
+.card-img-top {
+    width: 220px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+/* Estilos para o rodapé da página */
+footer {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #8FBC8F;
+    color: #F5F5DC;
+}
+
+/* Estilos para links no rodapé */
+footer .container a {
+    color: #F5F5DC;
+}
+
+/* Estilos para hover em links no rodapé */
+footer .container a:hover {
+    text-decoration: none;
+    color: #F5F5DC;
+}

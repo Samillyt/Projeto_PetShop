@@ -1,0 +1,67 @@
+
+/* Define uma margem e preenchimento para o corpo da página */
+body {
+    margin: 0px 30px;
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+    background-color: #8FBC8F;
+}
+
+/* Estilos para links na barra de navegação */
+.navbar .collapse .navbar-nav .nav-item a {
+    color: #F5F5DC;
+}
+
+/* Estilos gerais da página */
+body {
+    margin: 0px 10px;
+}
+
+/* Estilos para cabeçalhos h2 */
+h2 {
+    color: #8FBC8F;
+}
+
+/* Estilos para links no botão específico com ID 'corBotao' */
+#corBotao a {
+    color: #fff;
+}
+
+/* Estilos para hover em links no botão específico com ID 'corBotao' */
+#corBotao a:hover {
+    text-decoration: none;
+}
+
+/* Estilos para o botão de entrada */
+.btn-entrar {
+    background-color: #8FBC8F;
+    border: #8FBC8F;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Estilos para hover no botão de entrada */
+.btn-entrar:hover {
+    background-color: #F5F5DC;
+    color: #8FBC8F;
+}
+
+/* Estilos para o rodapé da página */
+footer {
+    padding: 30px;
+    background-color: #8FBC8F;
+    color: #F5F5DC;
+}
+
+/* Estilos para links no rodapé */
+footer .container a {
+    color: #F5F5DC;
+}
+
+/* Estilos para hover em links no rodapé */
+footer .container a:hover {
+    text-decoration: none;
+    color: #F5F5DC;
+}
