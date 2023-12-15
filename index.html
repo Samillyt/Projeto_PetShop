@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Configurações do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofT38S5nPI8iKofCpitA6C/JpKV+1QbxC" crossorigin="anonymous">
+
+
+    <!-- Estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <!-- Título da página e ícone -->
+    <title>Charme Animal</title>
+    <link rel="icon" href="imagens/icon.webp">
+</head>
+
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-sm">
+        <a href="index.html" class="navbar-brand"><img src="imagens/LOGO.png" width="200"></a>
+
+        <!-- Botão de menu para telas menores -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+            <i class="fa-solid fa-bars" style="color: #f5f5dc;"></i>
+        </button>
+
+        <!-- Itens da barra de navegação -->
+        <div class="collapse navbar-collapse" id="nav-target">
+            <ul class=" navbar-nav ml-auto">
+                <li class="nav-item"><a href="html/sobrenos.html" class="nav-link">Sobre nós</a></li>
+                <li class="nav-item"><a href="formulario.html" class="nav-link">Carrinho</a></li>
+                <li class="nav-item"><a href="html/inscreverse.html" class="nav-link">Inscrever-se</a></li>
+                <li class="nav-item"><a href="html/entrar.html" class="nav-link">Entrar</a></li>
+            </ul>
+
+            <!-- Barra de pesquisa -->
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="pesquisar...">
+                <button class="btn btn-outline">OK</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Flexcontainer -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Links para categorias -->
+            <div class="row-item col-6 col-sm-4 col-md-2"> <a href="html/produtoCachorro.html">Cachorro</a></div>
+            <div class="row-item col-6 col-sm-4 col-md-2"> <a href="html/produtoGato.html">Gato</a></div>
+            <div class="row-item col-6 col-sm-4 col-md-2"> <a href="html/produtoPassaro.html">Pássaro</a></div>
+            <div class="row-item col-6 col-sm-4 col-md-2"> <a href="html/produtoPeixe.html">Peixe</a></div>
+            <div class="row-item col-6 col-sm-4 col-md-2"> <a href="html/produtoTartaruga.html">Tartaruga</a></div>
+            <div class="row-item col-6 col-sm-4 col-md-2"> <a href="html/servicos.html">Serviços</a></div>
+        </div>
+    </div>
+
+    <!-- Carousel de imagens -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores de slides -->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <!-- Slides do carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="imagens/banner1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/banner2.png" alt="Second slide">
+            </div>
+        </div>
+        <!-- Controles do carousel -->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <!-- Seção de "Mais vendidos" -->
+    <h2>Mais vendidos</h2>
+    <div class="ajustaCard ml-auto container-fluid">
+        <div class="row">
+            <!-- Itens mais vendidos 1/4 -->
+            <div class="row-item col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card" id="produto08">
+                    <img class="card-img-top" src="imagensprodutos/petiscoCachorro4.jpg" alt="Card image cap">
+                    <div class="card-body-produto">
+                        <p class="card-text">Petisco Quatree Snacks Bifinhos Carne - 500 g</p><br>
+                        <h5 class="card-price">R$ 25,90</h5>
+                        <button class="btn btnAdicionarAoCarrinho" data-id="produto08">
+                            Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Itens mais vendidos 2/4 -->
+            <div class="row-item col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card" id="produto35">
+                    <img class="card-img-top" src="imagensprodutos/racaoPassaro3.jpg" alt="Card image cap">
+                    <div class="card-body-produto">
+                        <p class="card-text">Ração Nutrópica Gourmet para Papagaio - 600 g</p><br>
+                        <h5 class="card-title">R$ 81,99</h5>
+                        <button class="btn btnAdicionarAoCarrinho" data-id="produto35">
+                            Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Itens mais vendidos 3/4 -->
+            <div class="row-item col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card" id="produto65">
+                    <img class="card-img-top" src="imagensprodutos/enfeiteTartaruga1.jpg" alt="Card image cap">
+                    <div class="card-body-produto">
+                        <p class="card-text">Enfeite Nomoy Pet Caveira Resinada</p><br>
+                        <h5 class="card-title">R$ 95,99</h5>
+                        <button class="btn btnAdicionarAoCarrinho" data-id="produto65">
+                            Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Itens mais vendidos 4/4 -->
+            <div class="row-item col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card" id="produto11">
+                    <img class="card-img-top" src="imagensprodutos/remedioCachorro3.jpg" alt="Card image cap">
+                    <div class="card-body-produto">
+                        <p class="card-text">Antipulgas e Carrapatos MSD Bravecto para Cães de 20 a 40 Kg</p><br>
+                        <h5 class="card-price">R$ 258,90</h5>
+                        <button class="btn btnAdicionarAoCarrinho" data-id="produto11">
+                            Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ajuste-ofertas">
+    <!-- Seção de "Ofertas" -->
+    <h2 >Ofertas</h2>
+    <div class="ajustaCard ml-auto container-fluid">
+        <div class="row">
+            <!-- Itens ofertas 1/4 -->
+            <div class="row-item col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card" id="produto29">
+                    <img class="card-img-top" src="imagensprodutos/areia1.jpg" alt="Card image cap">
+                    <div class="card-body-produto">
+                        <p class="card-text">Areia Higiênica Baw Waw para Gatos - 4 kg</p><br>
+                        <h5 class="card-title">R$ 7,99</h5>
+                        <button class="btn btnAdicionarAoCarrinho" data-id="produto29">
+                            Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Itens ofertas 2/4 -->
+            <div class="row-item col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card" id="produto45">
+                    <img class="card-img-top" src="imagensprodutos/bebedouro1.jpg" alt="Card image cap">
+                    <div class="card-body-produto">
+                        <p class="card-text">Bebedouro Jel Plast Pet Piu Simples Amarelo para Beija-Flor - 250 ml</p>
+                        <h5 class="card-title">R$ 10,99</h5>
+                        <button class="btn btnAdicionarAoCarrinho" data-id="produto45">
+                            Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Itens ofertas 3/4 -->
+            <div class="row-item col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card" id="produto61">
+                    <img class="card-img-top" src="imagensprodutos/alimentoTartaruga1.jpg" alt="Card image cap">
+                    <div class="card-body-produto">
+                        <p class="card-text">Alimento Alcon Club Reptomix para Tartarugas Aquáticas - 28 g</p><br>
+                        <h5 class="card-title">R$ 16,99</h5>
+                        <button class="btn btnAdicionarAoCarrinho" data-id="produto61">
+                            Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Itens ofertas 4/4 -->
+            <div class="row-item col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card" id="produto05">
+                    <img class="card-img-top" src="imagensprodutos/petiscoCachorro1.jpg" alt="Card image cap">
+                    <div class="card-body-produto">
+                        <p class="card-text">Biscoito Golden Cookie para Cães Adultos - 400 g</p><br>
+                        <h5 class="card-price">R$ 17,90</h5>
+                        <button class="btn btnAdicionarAoCarrinho" data-id="produto05">
+                            Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Banner adicional -->
+    <div class="imag">
+        <img class="d-block w-100" src="imagens/banner3.png">
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <!-- Seções do rodapé -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Charme Animal</h4>
+                    <p>Endereço: Rua dos Animais, 123</p>
+                    <p>Email: contato@charmeanimal.com</p>
+                    <p>Horário de Funcionamento:<br> Seg-Sex: 9h-18h<br> Sáb: 10h-15h</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Entre em Contato</h4>
+                    <p>Telefone: (11) 1234-5678</p>
+                    <p>WhatsApp: (11) 91234-5678</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Nossas Redes Sociais</h4>
+                    <p><a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></p>
+                    <p><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
+                    <p><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <p><strong>FORMAS DE PAGAMENTO:</strong></p>
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <p><i class="fab fa-cc-visa"></i> Visa</p>
+                        </div>
+                        <div>
+                            <p><i class="fab fa-cc-mastercard"></i> Mastercard</p>
+                        </div>
+                        <div>
+                            <p><i class="fab fa-cc-paypal"></i> PayPal</p>
+                        </div>
+                        <div>
+                            <p><i class="fas fa-money-bill-wave"></i> Pix</p>
+                        </div>
+                        <div>
+                            <p><i class="fas fa-barcode"></i> Boleto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-2">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2023 Charme Animal. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
