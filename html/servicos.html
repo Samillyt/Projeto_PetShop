@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Metadados da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" type="text/css" href="../fontawesome/css/all.css">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="../css/estiloServicos.css">
+
+    <!-- Título da página e ícone -->
+    <title>Serviços | Charme Animal</title>
+    <link rel="icon" href="../imagens/icon.webp">
+</head>
+
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-sm">
+        <a href="../index.html" class="navbar-brand"><img src="../imagens/LOGO.png" width="200"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+            <i class="fa-solid fa-bars" style="color: #f5f5dc;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-target">
+            <ul class=" navbar-nav ml-auto">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="../html/carrinho.html" class="nav-link">Carrinho</a></li>
+                <li class="nav-item"><a href="../html/inscreverse.html" class="nav-link">Inscrever-se</a></li>
+                <li class="nav-item"><a href="../html/entrar.html" class="nav-link">Entrar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção de Serviços 1 -->
+    <div class="container-fluid">
+        <div class="row ajustaImgServico align-items-center">
+            <div class="col-md-6">
+                <img src="../imagens/ll2.jpg" class="img-fluid" alt="Imagem do Pet">
+            </div>
+            <div class="col-md-6 mb-5">
+                <h2>Quando levar seu pet ao veterinário?</h2>
+                <h5>
+                    <br>
+                    <p>Check-up Anual</p>
+                    <p>Lesões ou Ferimentos</p>
+                    <p>Mudanças de Comportamento</p>
+                    <p>Envelhecimento</p>
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Serviços 2 -->
+    <div class="container-fluid">
+        <div class="row ajustaImgServico align-items-center">
+            <div class="col-md-6">
+                <img src="../imagens/ll1.jpg" class="img-fluid" alt="Imagem do Pet">
+            </div>
+            <div class="col-md-6">
+                <h2>Banho & Tosa </h2>
+                <h5>
+                    <br>
+                    <p>O banho é um aliado no tratamento de doenças de pele</p>
+                    <p>A tosa higiênica facilita a limpeza </p>
+                    <p>A escovação do pelo reduz a queda habitual e elimina os nós</p><br>
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulário de Agendamento -->
+    <div class="container mt-5">
+        <h2 class="mb-4 ">Agendamento de Serviço</h2>
+        <form>
+            <div class="form-group">
+                <label for="service">Selecione o Serviço:</label>
+                <select class="form-control" id="service" name="service" required>
+                    <option value="veterinario">Veterinário</option>
+                    <option value="banhoetosa">Banho & Tosa</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Escolha a Data:</label>
+                <input type="date" class="form-control" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Escolha o Horário:</label>
+                <input type="time" class="form-control" id="time" name="time" required>
+            </div>
+            <button type="submit" class="btn btn-agendar">Agendar</button>
+        </form>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <!-- Seções do rodapé -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Charme Animal</h4>
+                    <p>Endereço: Rua dos Animais, 123</p>
+                    <p>Email: contato@charmeanimal.com</p>
+                    <p>Horário de Funcionamento:<br> Seg-Sex: 9h-18h<br> Sáb: 10h-15h</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Entre em Contato</h4>
+                    <p>Telefone: (11) 1234-5678</p>
+                    <p>WhatsApp: (11) 91234-5678</p>
+                    <!-- Seção 3 -->
+                    <div class="col-md-4">
+                        <h4>Nossas Redes Sociais</h4>
+                        <p><a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></p>
+                        <p><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
+                        <p><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></p>
+                    </div>
+                </div>
+                <!-- Seção de Formas de Pagamento -->
+                <div class="row mt-4">
+                    <div class="col-md-12 text-center">
+                        <p><strong>FORMAS DE PAGAMENTO:</strong></p>
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <p><i class="fab fa-cc-visa"></i> Visa</p>
+                            </div>
+                            <div>
+                                <p><i class="fab fa-cc-mastercard"></i> Mastercard</p>
+                            </div>
+                            <div>
+                                <p><i class="fab fa-cc-paypal"></i> PayPal</p>
+                            </div>
+                            <div>
+                                <p><i class="fas fa-money-bill-wave"></i> Pix</p>
+                            </div>
+                            <div>
+                                <p><i class="fas fa-barcode"></i> Boleto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-12 text-center">
+                        <p>&copy; 2023 Charme Animal. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
